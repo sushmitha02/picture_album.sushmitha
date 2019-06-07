@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @picture_album.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @picture_album.description %>
+</p>
+
+<%= link_to 'Edit', edit_picture_album_path(@picture_album) %> |
+<%= link_to 'Back', picture_albums_path %>
