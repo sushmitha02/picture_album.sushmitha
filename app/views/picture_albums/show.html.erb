@@ -5,6 +5,8 @@
   <%= @picture_album.title %>
 </p>
 
+<%= link_to 'Download', @drop.file, download: '' %>
+
 <p>
   <strong>Description:</strong>
   <%= @picture_album.description %>
