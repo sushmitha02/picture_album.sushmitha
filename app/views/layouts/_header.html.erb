@@ -3,7 +3,8 @@
 <%= link_to 'sign_out', destroy_user_session_path, method: :delete%>
 
 <% else %>
-<%= link_to 'Add_picture_album', new_picture_album_path %>
+<%= link_to 'Add_album', new_picture_album_path %>
+<%= link_to 'MyAlbums',picture_albums_path %>
 <%= link_to 'sign_in', new_user_session_path %> 
 
 <% end %>
